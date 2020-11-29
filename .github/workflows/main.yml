@@ -40,7 +40,7 @@ jobs:
         run : npm install --global surge
       
       - name: deploy to surge
-        run: surge ./build react-aa1st.surge.su ${{secrets.SURGE_TOKEN}}
+        run: surge ./build react-aa1st.surge.sh ${{secrets.SURGE_TOKEN}}
         
 
       # Runs a single command using the runners shell
