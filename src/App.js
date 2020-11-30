@@ -8,9 +8,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
-         <div>
-          <br>Updated by Saad with new surge token</br>
-          </div>
+          <br/>Updated by Saad with new surge token
+          
         </p>
         <a
           className="App-link"
